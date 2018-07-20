@@ -1,0 +1,206 @@
+/*全局相关**************************
+***********************************/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 720px;
+    height: 1280px;
+    position: absolute;
+    top: 0;
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+/*雪碧图*/
+
+.sp {
+    background: url("sp.png");
+}
+.icon1 {
+    width: 94px;
+    height: 94px;
+    background-position: -10px -10px;
+}
+.icon2 {
+    min-width: 42px;
+    height: 45px;
+    background-position: -10px -114px;
+    /* float: right; */
+    /* margin-left: 153px; */
+    position: absolute;
+    right: 30px;
+}
+.icon3 {
+    width: 42px;
+    height: 41px;
+    background-position: -62px -114px;
+    margin-bottom: 16px;
+}
+.icon4 {
+    width: 47px;
+    height: 40px;
+    background-position: -10px -169px;
+    /* padding-top: 9px; */
+    margin-bottom: 16px;
+}
+.icon5 {
+    /* float: right; */
+    width: 19px;
+    height: 33px;
+    background-position: -67px -169px;
+    position:  absolute;
+    right: 0;
+}
+.icon6 {
+    width: 25px;
+    height: 32px;
+    background-position: -10px -219px;
+}
+.icon7 {
+    width: 13px;
+    height: 9px;
+    background-position: -45px -219px;
+    margin-left: 7%;
+}
+/*header*****************************************
+*******************************/
+
+.header {
+    width: 100%;
+    height: 88px;
+    background-color: #5FBFCD;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    font-size: 34px;
+    justify-content: center;
+    text-align: center;
+    /* overflow: hidden; */
+}
+.findEmployer {
+    width: 144px;
+    height: 70px;
+    text-align: center;
+    background-color: #54A7B2;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+.findEmployee {
+    width: 144px;
+    height: 70px;
+    color: #54A7B2;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin-left: -1%;
+}
+.findEmployer p {
+    line-height: 70px;
+}
+.findEmployee p {
+    line-height: 70px;
+}
+.task5-2_r2_c3 {
+    width: 42px;
+    height: 45px;
+    background-position: -10px -114px;
+}
+.headerIcon {
+    background: url("sp.png") top left no-repeat;
+    width: 94px;
+    height: 94px;
+    background-position: -10px -10px;
+}
+.rr {
+    margin: 0 auto;
+}
+/*listHeader****************************************************
+**********************************/
+
+.listHeader {
+    height: 80px;
+    color: #999999;
+    font-size: 28px;
+    display: flex;
+    justify-content: space-around;
+    /* position:  absolute; */
+    margin-top: 88px;
+}
+.listHeader-child {
+    display: flex;
+    align-items: center;
+    /* width: 19%; */
+}
+.listHeader-child p {
+    /* margin-right: 3%; */
+}
+/* list*************************************
+************************************* */
+
+.list {
+    /* flex: 1 0 auto; */
+    /* text-align: center; */
+    height: 974px;
+    /* min-height: 100%; */
+    display:  flex;
+    flex-direction:  column;
+    align-items: center;
+    overflow:  scroll;
+}
+.list div:nth-of-type(1){
+    margin-top: 0;
+}
+.list-child{
+    width: 622px;
+    height: 122px;
+    position:  relative;
+    /* text-align: center; */
+    margin-top: 50px;
+}
+.second-line{
+    display:  flex;
+}
+.list-child-time{
+    font-size:  28px;
+    color:  #999999;
+}
+.list-child-location{
+    font-size: 26px;
+    color: #999999;
+}
+.second-line p:nth-of-type(1){
+    color: #333333;
+    font-size:  28px;
+}
+.second-line p:nth-of-type(2){
+    margin-left: 133px;
+    font-size:  30px;
+    color: #E53B0D;
+}
+
+
+
+/*footer****************************
+******************************/
+
+.footer {
+    display: flex;
+    /* bottom: 0; */
+    height: 99px;
+    justify-content: space-evenly;
+    /* padding: 0 8% 0 8%; */
+    /* width: 100%; */
+}
+.footer-child1, .footer-child3 {
+    padding-top: 9px;
+    /* text-align: center; */
+    color: #5FBFCC;
+    font-size: 20px;
+}
+.footer-child3 {
+    padding-top: 9px;
+    text-align: center;
+    color: #999999;
+    font-size: 20px;
+}
