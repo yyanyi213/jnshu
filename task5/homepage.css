@@ -61,7 +61,7 @@ hr {
     color: white;
 }
 .portrait {
-    width: 100px;
+    width: 80px;
     margin: 0 5% 0 5%;
 }
 .right {
@@ -93,10 +93,11 @@ hr {
 }
 .items p:nth-of-type(3) {
     width: 62%;
-}   
-.items p:nth-of-type(2)
-{    margin: 0 5% 0 5%;
-    color: rgb(193, 194, 198);}
+}
+.items p:nth-of-type(2) {
+    margin: 0 5% 0 5%;
+    color: rgb(193, 194, 198);
+}
 .splitLine {
     background-color: rgb(193, 194, 198);
     height: 1px;
