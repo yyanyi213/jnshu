@@ -1,0 +1,192 @@
+/*雪碧图*/
+
+.sp {
+    background: url("sp.png") top left no-repeat;
+}
+.icon1 {
+    width: 52px;
+    height: 53px;
+    background-position: -10px -10px;
+    /* margin-left: 4rem; */
+    position:  absolute;
+    right: 5%;
+}
+.icon2 {
+    width: 40px;
+    height: 40px;
+    background-position: -10px -73px;
+    position: relative;
+    left: 5%;
+}
+.icon3 {
+    width: 38px;
+    height: 38px;
+    background-position: -10px -123px;
+    position: relative;
+    right: 5%;
+}
+.icon4 {
+    width: 30px;
+    height: 30px;
+    background-position: -10px -171px;
+    margin-left: 2%;
+}
+.icon5 {
+    width: 30px;
+    height: 30px;
+    background-position: -10px -211px;
+    margin-left: 2%;
+}
+.icon6 {
+    width: 31px;
+    height: 30px;
+    background-position: -10px -251px;
+    margin-left: 2%;
+}
+.icon7 {
+    width: 31px;
+    height: 30px;
+    background-position: -10px -291px;
+}
+.icon8 {
+    width: 15px;
+    height: 13px;
+    background-position: -10px -331px;
+    margin-left: 2rem;
+}
+/*全局*/
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    background-color: #29BDDF;
+}
+* {
+    margin: 0;
+}
+/*header*/
+
+.header {
+    /* background-color: #29BDDF; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 4rem;
+    color: white;
+    font-size: 2rem;
+}
+/*audioBar*/
+
+.audioBar {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.67);
+    position: relative;
+    height: 9%;
+    align-items: center;
+    color: #464646;
+}
+.audioBar p {
+    font-size: 1.4rem;
+    margin-left: 6%;
+}
+/*title*/
+
+.title {
+    color: white;
+    font-size: 3vh;
+    /* margin-left: 8%; */
+    margin: 2% 0 0 5%;
+}
+/*container*/
+
+.container {
+    height: 56%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    margin: 5% 0 1% 0;
+}
+.rectangle {
+    color: wheat;
+    width: 23%;
+    height: 24%;
+    background-color: #FBB335;
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+    align-items: center;
+    position: relative;
+    margin: 0 4.3%;
+    border: 0.2rem solid #FFFFFF;
+}
+.mini-rectangle {
+    width: 100%;
+    height: 29%;
+    background-color: rgba(25, 152, 182, 0.52);
+}
+.rectangle p:nth-of-type(1) {
+    /* margin-bottom: 20%; */
+    color: #555555;
+    font-size: 1.6rem;
+    position:  relative;
+    bottom: 10%;
+}
+.rectangle p:nth-of-type(2) {
+    position: absolute;
+    bottom: 0;
+    color: #FFFFFF;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(25, 152, 182, 0.52);
+    font-size: 1rem;
+}
+.hover {
+	display: none;
+	position: absolute;
+	top: 105%;
+	/* left: -5%; */
+}
+.rectangle:hover .hover{
+    display: flex;
+}
+/*line and thick-line*/
+.line{
+    /* margin-top: 5%; */
+    width: 100%;
+    height: 0.2%;
+    background-color: #FFFFFF;
+    /* margin: 4.3%; */
+    /* border: 0.2rem solid #FFFFFF; */
+    }
+.thick-line{
+    display:  flex;
+    justify-content: space-around;
+    height: 2%;
+}
+.thick-line div{
+    width: 23%;
+    /* height: 103%; */
+    background-color: #FBB335;
+    /* margin: 4.3%; */
+    border: 0.2rem solid #FFFFFF;
+    /* box-sizing:  border-box; */
+}
+/*footer*/
+.footer{
+    height: 13%;
+    display:  flex;
+    justify-content:  center;
+    align-items:  center;
+}
+.footer button{
+	background-color: #FBB335;
+	color:white;
+	border: 0;
+	width: 75%;
+	height: 65%;
+	font-size: 2rem;
+}
