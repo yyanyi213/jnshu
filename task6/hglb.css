@@ -11,7 +11,8 @@ body {
     position: absolute;
     top: 0;
 }
-/*雪碧图*/
+/***雪碧图*/
+
 
 .sp {
     background: url("sp.png") top left no-repeat;
