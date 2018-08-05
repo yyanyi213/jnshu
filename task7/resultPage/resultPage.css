@@ -82,7 +82,8 @@ body {
     /* margin: 5% 0 0 5%; */
 }
 .text2 {
-    margin: 5% 0 0 10%;
+    margin: 0 0 0 10%;
+    /* height: 20%; */
 }
 .firstDay {
     background-color: #FFFFFF;

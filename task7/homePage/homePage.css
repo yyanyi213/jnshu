@@ -9,7 +9,9 @@
     background-position: -10px -10px;
     position:  absolute;
     right: 0;
-    top: 62%;
+    top: 17%;
+    /* bottom:  0; */
+    /* right: 0; */
 }
 .icon2 {
     width: 34px;
@@ -53,12 +55,14 @@
     padding: top;
     padding-top: 10px;
     margin-bottom: 0;
+    /* position: relative !important; */
 }
 .version {
     display: flex;
     justify-content: center;
     height: 13%;
     margin: 2%;
+    position:  relative;
 }.player-Numbers {
     color: #787878;
     font-size: 3vh;
